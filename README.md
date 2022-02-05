@@ -80,7 +80,7 @@
 - ### Milestone 3
     - During this milestone we began the fun part, coding (Part 1/2)! Similar to how we split the Figma Design, I thought it would be best to do the same thing for the coding section since we were already familiar with those pages. At first, we begain using Live Share in Visual Studio Code, but we later as a team agreed that it would be best to move over to Github, creating branches and pull requests. Below you'll see what we managed to accomplish during this milstone, for each page.
         - #### Home Page
-            - <img src="https://i.imgur.com/LNclRKs.gif" alt="drawing" style="width: 700px; height 350px;"/>
+            - <img src="https://user-images.githubusercontent.com/71786791/152658185-edb0cdf0-664f-4a8b-b107-d4bd883aa386.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### About Page
             - <img src="https://i.imgur.com/8V7t4ir.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### Events Page
