@@ -93,7 +93,7 @@
 - ### Milestone 4
     - During this milstone we continued coding (Part 2/2). Specifically, we went over each page and we began reviewing what needed to change/what we can improve upon. Below you'll see the updated changes that we made as a team.
         - #### New Home Page
-            - <img src="https://i.imgur.com/5BvzYH5.gif" alt="drawing" style="width: 700px; height 350px;"/>
+            - <img src="https://user-images.githubusercontent.com/71786791/152658251-ccc496b7-f4bd-423e-95c1-25a5b8e2e7be.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### New About Page
             - <img src="https://i.imgur.com/74Vc4vv.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### New Events Page
