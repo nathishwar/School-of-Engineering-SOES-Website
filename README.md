@@ -95,7 +95,7 @@
         - #### New Home Page
             - <img src="https://user-images.githubusercontent.com/71786791/152658251-ccc496b7-f4bd-423e-95c1-25a5b8e2e7be.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### New About Page
-            - <img src="https://i.imgur.com/74Vc4vv.gif" alt="drawing" style="width: 700px; height 350px;"/>
+            - <img src="https://user-images.githubusercontent.com/71786791/152658314-87a0946b-f8a1-489c-999e-81e828644c6d.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### New Events Page
             - <img src="https://i.imgur.com/d8zTWwl.gif" alt="drawing" style="width: 700px; height 350px;"/>
         - #### New Resources Page
