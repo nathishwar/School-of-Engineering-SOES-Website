@@ -3,6 +3,7 @@
 # Computer Science Society Club Website
 
 [CSS Website](https://jjaycss.tech)
+[CSS Club Github](https://github.com/jjcss)
 
 ## Table of Contents
 - [App Description](#App-Description)
