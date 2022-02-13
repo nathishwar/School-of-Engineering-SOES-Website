@@ -2,7 +2,7 @@
 
 # Computer Science Society Club Website
 
-[CSS Website](https://jjaycss.tech)
+[CSS Website](https://jjaycss.tech) <br>
 [CSS Club Github](https://github.com/jjcss)
 
 ## Table of Contents
