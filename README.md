@@ -38,7 +38,7 @@
 
 ## App Description
 <p>
-    Hello 👋, my name is Leandro Gamarra. Welcome to my documented process of how I built the club's website. As President of the Computer Science Society Club I led a team of 4 students this past Winter 2022, during the month of January, in building the club's very first official Club Website. In this website you will find everything you need to know about who we are as a club, what we do in terms of workshops and additional resources that will help students succeed in the Computer Science field. 
+    Hello 👋, my name is Leandro Gamarra. Welcome to my documented process of how I built the club's website. As President of the Computer Science Society Club I led a team of 4 students this past Winter 2022, during the month of January, in building the club's very first official Club Website. In this website you will find everything you need to know about who we are as a club, what we do in terms of workshops and additional resources that will help students succeed in the Computer Science field.. 
 </p>
 
 ## App Background
