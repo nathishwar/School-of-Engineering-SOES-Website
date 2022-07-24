@@ -1,9 +1,9 @@
-<img src="https://i.imgur.com/JybZuXd.png" alt="drawing" width="100"/> <img src="https://i.imgur.com/Bzkqs5I.png" alt="drawing" width="100"/>
+<img src="https://fwu.edu.np/assets/uploads/slider/home-slider-1597487562-sms.jpg" alt="drawing" width="100"/> <img src="https://fwu.edu.np/assets/uploads/slider/home-slider-1597487562-sms.jpg" alt="drawing" width="100"/>
 
-# Computer Science Society Club Website
+# School of engineering Society SOES
 
-[CSS Website](https://jjaycss.tech) <br>
-[CSS Club Github](https://github.com/jjcss)
+<!-- [CSS Website](https://jjaycss.tech) <br> -->
+[CSS Club Github](https://github.com/pradipbhatt)
 
 ## Table of Contents
 - [App Description](#App-Description)
@@ -38,7 +38,7 @@
 
 ## App Description
 <p>
-    Hello 👋, my name is Leandro Gamarra. Welcome to my documented process of how I built the club's website. As President of the Computer Science Society Club I led a team of 4 students this past Winter 2022, during the month of January, in building the club's very first official Club Website. In this website you will find everything you need to know about who we are as a club, what we do in terms of workshops and additional resources that will help students succeed in the Computer Science field.. 
+    Hello 👋, my name is Pradip Bhatt. Welcome to my documented process of how I built the Society's website. As Member of the School Of Engineering  Society Club I led a team of 2 students this last month 2022, during the month of ashar, in building the club's very first official Club Website. In this website you will find everything you need to know about who we are as a club, what we do in terms of workshops and additional resources that will help students succeed in the Computer Science field.. 
 </p>
 
 ## App Background
@@ -47,10 +47,8 @@
 </p>
 
 ## Team Members
-- Leandro Gamarra
-- Luis B.
-- Annie
-- Wingki
+- Pradip Bhatt
+- Sameer Bhatt
 
 ## Development Process
 - ### Milestone 1
@@ -59,7 +57,7 @@
         - About us Info (this will have relevant contact info/club logo)
         - Email mail listing (link to sign up google form and also another link to the remove from mailing list form)
         - Upcoming Events/Calendar
-        - JJAY CS Related resource sections
+        - SOES Related resource sections
         - Suggestion box for future events
         - Social media links
 
@@ -110,7 +108,7 @@
 ## Final Website
 - Let's go!! After 5 long weeks, we managed to finish the website. I'm extremely happy with the final product and I'm happy with my team and how we all came together to build this awesome site.
     - #### Link to Website
-        - [CSS Club Website](https://jjaycss.tech)
+        <!-- - [SOES Club Website](ht) -->
 
 ## App Technology
 This website has been built using HTML/CSS and Javascript.
@@ -122,7 +120,7 @@ In terms of future features, I'd like to implement some sort of database so, ins
 To sum up, all that members wanted implement into the club's website has been implemented. The website can serve as a go to source for members/new members to learn about what the club is about and so much more. I had fun leading this team, as it was the first time I've ever led a team throgh a project where we followed common steps of a project Development process. I will definitely try to do this more. I hope you enjoyed my project.
 
 ## License
-Copyright [2022] [Leandro Gamarra Montero]
+Copyright [2022] [Pradip Bhatt]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
