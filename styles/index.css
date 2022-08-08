@@ -212,11 +212,12 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3cm;
     width: 70%; 
-    /* height: 80%; */
-    /* width: 350px;  */
+    height: 80%;
+    width: 350px; 
     /* height: 300px; */
-    animation: rotation 13s infinite linear;
+    /* animation: rotation 13s infinite linear; */
     
 }
 
