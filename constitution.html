@@ -1,92 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHXX8JNY0K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JHXX8JNY0K');
-</script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="globalstyle.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/5f5bb1c58f.js" crossorigin="anonymous"></script>
+    <script src="global.js"></script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constituion</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOES | Contact</title>
+    <meta name="title" content="SOES | Contact">
+    <meta name="description" content="SOES is Engineering Society Club Of Far Western University.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pradipbhatt.github.io/School-of-Engineering-SOES-Website/">
+    <meta property="og:title" content="SOES |SOES is Engineering Society Club Of Far Western University Home">
+    <meta property="og:description" content=".">
+    <meta property="og:image" content="./logo/highreslogo.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pradipbhatt.github.io/School-of-Engineering-SOES-Website/">
+    <meta property="twitter:title" content="SOES SOES is Engineering Society Club Of Far Western University| Home">
+    <meta property="twitter:description" content=".">
+    <meta property="twitter:image" content="./logo/highreslogo.webp">
     <style>
-        *{
-            color: rgb(0, 0, 0);
-            background-color: rgb(152, 175, 175);
-        }
+
+      #My_pdf{
+        width: 95%;
+        height:550px;
+
+      }
     </style>
 </head>
 <body>
-           <!-- Navbar starts From here -->
-           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Homepage</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="about.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <!-- Our teams-->
-<div class="btn-group">
-    <button type="button" class="btn btn-dark">Our Team</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our teams</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Executive committee</a>
-      <a class="dropdown-item" href="#">Advisory Team</a>
-      <a class="dropdown-item" href="#">Community Coordinators</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Suporting Leads</a>
+<div style="position:fixed; left:0%; top:0%;z-index: 2;">
+    <nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <li><a class="other-page" href="index.html">home.</a></li>
+            <li><a class="other-page" href="about.html">about.</a></li>
+            <!-- <li><a class="other-page" href="resumepage.html">resume.</a></li> -->
+            <li><a class="other-page" href="#">projects.</a></li>
+            <li><a id="current-page">contact.</a></li>
+        </ul>
     </div>
-  </div>
-
-                  <!-- Publications-->
-<div class="btn-group">
-    <button type="button" class="btn btn-dark">Publications</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our Publications</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="constitution.html">constitution</a>
-      <a class="dropdown-item" href="#">Book-2</a>
-      <a class="dropdown-item" href="#">Book-3</a>
-  </div>            
-
-  <!-- News and Notices -->
-  <a class="nav-link" href="#">News and Notices <span class="sr-only">(current)</span></a>
-  <!-- Events -->
-  <div class="btn-group">
-    <button type="button" class="btn btn-dark">Programs</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our Programs</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Poem Compitision</a>
-      <a class="dropdown-item" href="#">Art- Compitision</a>
-      <a class="dropdown-item" href="#">others</a>
-  </div>   
-  <!-- Contact info -->
-  <a class="nav-link" href="#">Contact info <span class="sr-only">(current)</span></a>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav> 
-    <h2>This is for the Constituion page</h2>
-      <a href="https://drive.google.com/file/d/1aNVcNTieWtCjBxKOVtSMRSiRu0MjHs3S/view?usp=sharing"><button>Constituion</button></a>
-      <p>Click on Above button for open constitution</p>
+</nav>
+</div>
+<a href="index.html"><img id="logo" alt="Personal Logo" src="images/logo1.jpeg"></a>
+<div class="welcome"><span id="welcome">Constitution.</span></div>
+<hr id="underline">
+<div style="height: 7vh; margin: 0 auto;"></div>
+<div class="contact-grid">
+<!-- for pdf -->
+<iframe id="My_pdf" src="images/bidhan pdf file_2.pdf" frameborder="0">Constitution of SOES</iframe>
+<script>
+    setWidth("underline", getWidth("welcome"));
+</script>
 </body>
 </html>
