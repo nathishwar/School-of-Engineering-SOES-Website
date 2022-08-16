@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+  <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHXX8JNY0K"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -11,13 +12,22 @@
   gtag('config', 'G-JHXX8JNY0K');
 </script>
 	
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="styles/bootnavbar.css" />
+
     <title>School of engineering Society</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <!-- link to css of this file -->
     <link rel="stylesheet" href="styles/index.css">
     <!-- end of link to css  -->
@@ -31,253 +41,469 @@
     <!-- end of SVG -->
 	
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpeg" />
+    <meta
+      name="description"
+      content="SOES"
+    />
+    <meta
+      name="keywords"
+      content="SOES"
+    />
+  </head>
 
-</head>
-<body>
-    <!-- Header -->
-    <header style="background-color: rgb(255, 255, 255);">
-        <!-- Navbar starts From here -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Homepage</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="about1.html">About-Us <span class="sr-only">(current)</span></a>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="about1.html">About SOES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown" >
+               Notes Section
+              </a>
+              <ul class="dropdown-menu">
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+ >
+                  Computer Engineering
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="notes/1semister.html">1st semister</a></li>
+                    <li>
+                      <a class="dropdown-item" href="notes/2semister.html">2nd semister</a>
+                    </li>
+                    <!-- <li>
+                      <hr class="dropdown-divider" />
+                    </li> -->
+                    <li>
+                      <a class="dropdown-item" href="notes/3semister.html">3rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/4semister.html">4rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/5semister.html">5rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/6semister.html">6rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/7semister.html">7rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/8semister.html">8rd semister</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="dropdown-item dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown">
+                       Extra resources
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Hand written notes</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Book solutions</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Tutorials</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
-                <!-- Our teams-->
-<div class="btn-group">
-    <button type="button" class="btn btn-dark" >Our Notes Resources</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our teams</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="1semister.html">First-semister</a>
-      <a class="dropdown-item" href="2semister.html">Second-Semister</a>
-      <a class="dropdown-item" href="3semister.html">Third-semister</a>
-      <a class="dropdown-item" href="4semister.html">Fourth-semister</a>
-      <a class="dropdown-item" href="5semister.html">Fifth-semister</a>
-      <a class="dropdown-item" href="6semister.html">Sixth-semister</a>
-      <a class="dropdown-item" href="7semister.html">Seventh-semister</a>
-      <a class="dropdown-item" href="8semister.html">Eighth-semister</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Extra-workshops</a>
-    </div>
-  </div>
-
-                  <!-- Publications-->
-<div class="btn-group">
-    <button type="button" class="btn btn-dark">Publications</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our Publications</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="constitution.html">constitution</a>
-      <a class="dropdown-item" href="#">Book-2</a>
-      <a class="dropdown-item" href="#">Book-3</a>
-  </div>            
-
-  <!-- News and Notices -->
-  <a class="nav-link" href="https://www.facebook.com/permalink.php?story_fbid=pfbid0wzoYyrrn2qirxaP6jzjTn56CMQxU9eXmTBdVzkSJMzkDFJzn1if8obfAjpqWoZYEl&id=112105471510341">News and Notices <span class="sr-only">(current)</span></a>
-  <!-- Events -->
-  <div class="btn-group">
-    <button type="button" class="btn btn-dark">Programs</button>
-    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Our Programs</span>
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="poem.html">Poem Compitision</a>
-      <a class="dropdown-item" href="Art.html">Art- Compitision</a>
-      <a class="dropdown-item" href="#">others</a>
-  </div>   
-  <!-- Contact info -->
-  <a class="nav-link" href="contact.html">Contact info <span class="sr-only">(current)</span></a>
+                <li><a class="dropdown-item" href="poem.html">Poem Section</a></li>
+                <!-- BE civil -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+ >
+                 Civil Engineering
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="notes/1semister.html">1st semister</a></li>
+                    <li>
+                      <a class="dropdown-item" href="notes/2semister.html">2nd semister</a>
+                    </li>
+                    <!-- <li>
+                      <hr class="dropdown-divider" />
+                    </li> -->
+                    <li>
+                      <a class="dropdown-item" href="notes/3semister.html">3rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/4semister.html">4rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/5semister.html">5rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/6semister.html">6rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/7semister.html">7rd semister</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="notes/8semister.html">8rd semister</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="dropdown-item dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown">
+                       Extra resources
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Hand written notes</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Book solutions</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Tutorials</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="Art.html">Art section</a></li>
+                  <a class="dropdown-item" href="#">Article section</a>
+                </li>
               </ul>
-            </div>
-          </nav> 
-  <!-- Crauser starts from here -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (3).jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h3>FAR WESTERN UNIVERSITY</h3>
-          <i>A world-class academic institution with academic excellence, creative innovation, and research-based education.</i>
-        </div> 
+            </li>
+
+          <!-- Our publication section -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown" >
+            Our Publications
+            </a>
+            <ul class="dropdown-menu">
+              <li class="nav-item dropdown">
+                <a
+                  class="dropdown-item dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+>
+                Articles
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">1st semister</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">2nd semister</a>
+                  </li>
+                  <!-- <li>
+                    <hr class="dropdown-divider" />
+                  </li> -->
+                  <li>
+                    <a class="dropdown-item" href="#">3rd semister</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">4rd semister</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">5rd semister</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">6rd semister</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">7rd semister</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">8rd semister</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown">
+                     Extra resources
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hand written notes</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Book solutions</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Tutorials</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            <a class="dropdown-item" href="Art.html">Art section</a></li>
+                <a class="dropdown-item" href="#">Article section</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">News/Notices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact-info</a>
+          </li>
+
+          </ul>
+       
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (6).jpg" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
-            <h3>SCHOOL OF ENGINEERING</h3>
-            <i > FOE is to create educational hob for teacher, teacher educators, researchers and other competent human resources as well as contributing on national development by providing skillfull and trained educators.</i>
-          </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (7).jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-            <h3>SCHOOL OF ENGINEERING SOCIETY</h3>
-            <i >The strategic location of the University in the Far western region would not only support improving the access of local people to higher education but also create dynamism on the overall development of the region.</i>
-          </div>
-      </div>
+    </nav>
+    <header style="background-color: rgb(255, 255, 255);">
+      <!-- Navbar starts From here -->
+  
+<!-- Crauser starts from here -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (3).jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>FAR WESTERN UNIVERSITY</h3>
+        <i>A world-class academic institution with academic excellence, creative innovation, and research-based education.</i>
+      </div> 
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (6).jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+          <h3>SCHOOL OF ENGINEERING</h3>
+          <i > FOE is to create educational hob for teacher, teacher educators, researchers and other competent human resources as well as contributing on national development by providing skillfull and trained educators.</i>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/wallpaperflare.com_wallpaper (7).jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+          <h3>SCHOOL OF ENGINEERING SOCIETY</h3>
+          <i >The strategic location of the University in the Far western region would not only support improving the access of local people to higher education but also create dynamism on the overall development of the region.</i>
+        </div>
+    </div>
   </div>
-    <!-- Welcome section for deescribing about the Engineering Club -->
-    <div class="welcome-flex-container">
-        <div class="welcome-main-content">
-          <p class="welcome-section-title">School of Engineering <br>Society Club</p>
-          <p class="welcome-section-description">
-            A community driven club with the aim of helping and providing civil & Computer Engineering students with all the necessary skills to succeed in their career. Every semester we make it our goal to have unique events for our club members. Come and join us for one of our exciting events!
-            
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <!-- Welcome section for deescribing about the Engineering Club -->
+  <div class="welcome-flex-container">
+      <div class="welcome-main-content">
+        <p class="welcome-section-title">School of Engineering <br>Society Club</p>
+        <p class="welcome-section-description">
+          A community driven club with the aim of helping and providing civil & Computer Engineering students with all the necessary skills to succeed in their career. Every semester we make it our goal to have unique events for our club members. Come and join us for one of our exciting events!
+          
+        </p>
+
+          <div class= "welcome-buttons-section">
+              <a href="https://forms.gle/BcpiySQgNX99UMxHA" class="welcome-button-join" target="_blank" rel="noreferrer noopener">Join The Club</a>
+          </div>
+
+          <!-- <a href="https://github.com/pradipbhatt"><i class="fab fa-github fa-lg desc" aria-hidden="true" style="color: black; padding-top: 20px;"></i></a> -->
+          <!-- <a href="https://discord.gg/fJZKErEnPa"><i class="fab fa-discord fa-lg desc" style="color: #5865F2;"></i></a> -->
+      </div>
+      <div class="sidebar">
+          <img width="100px" height="100px" src="images/logo1.jpeg" alt="">
+      </div>
+  </div>
+  <!-- end of welcome section -->
+
+  <!-- What the club is about Section -->
+  <div class="about-flex-container" >
+      <div class="about-main-content">
+          <p class="about-section-title">What the Club is About</p>
+
+          <p class="about-section-description">
+          We are the students let club organiztion that believes in helping  BCT and BCE students succeed in the STEM field. We offer events that are aimed and designed to grow your understanding of tech and fields  related skills. <br><br> Whether you're aiming to be a Software Engineer, Data Scientist, or Project Manager, we offer a community of like-minded individuals who are eager to connect and learn with others.
           </p>
- 
-            <div class= "welcome-buttons-section">
-                <a href="https://forms.gle/BcpiySQgNX99UMxHA" class="welcome-button-join" target="_blank" rel="noreferrer noopener">Join The Club</a>
-            </div>
 
-            <!-- <a href="https://github.com/pradipbhatt"><i class="fab fa-github fa-lg desc" aria-hidden="true" style="color: black; padding-top: 20px;"></i></a> -->
-            <!-- <a href="https://discord.gg/fJZKErEnPa"><i class="fab fa-discord fa-lg desc" style="color: #5865F2;"></i></a> -->
-        </div>
-        <div class="sidebar">
-            <img width="100px" height="100px" src="images/logo1.jpeg" alt="">
-        </div>
-    </div>
-    <!-- end of welcome section -->
+          <div class= "about-button-section">
+              <a href="about.html" ><button class="about-button">Learn More</button></a>
+          </div>
+      </div>
+  
+      <div class="about-img-section">
+        <img src="images/teamwork41.gif" alt="" class="about-img">
+      </div>
+  </div>
+  <!-- end of about section  -->
 
-    <!-- What the club is about Section -->
-    <div class="about-flex-container" >
-        <div class="about-main-content">
-            <p class="about-section-title">What the Club is About</p>
+  <!-- events section -->
+  <div class="events-flex-container" >
+      <div class="events-img-section">
+          <img src="images/event.jpeg" alt="" class="events-img">
+      </div>
 
-            <p class="about-section-description">
-            We are the students let club organiztion that believes in helping  BCT and BCE students succeed in the STEM field. We offer events that are aimed and designed to grow your understanding of tech and fields  related skills. <br><br> Whether you're aiming to be a Software Engineer, Data Scientist, or Project Manager, we offer a community of like-minded individuals who are eager to connect and learn with others.
-            </p>
+      <div class="events-main-content">
+          <p class="events-section-title">Events</p>
 
-            <div class= "about-button-section">
-                <a href="about.html" ><button class="about-button">Learn More</button></a>
-            </div>
-        </div>
-    
-        <div class="about-img-section">
-          <img src="images/teamwork41.gif" alt="" class="about-img">
-        </div>
-    </div>
-    <!-- end of about section  -->
+          <p class="events-section-description">
+              Interested in learning Python, CSS/HTML/JS, or Swift? Then we are the club for you! We offer workshops for each of these programming languages and more, including Networking and Technical interview prep workshops. Whether you are a complete beginner or an advanced programmer, come join us at any of our events.
+          </p>
 
-    <!-- events section -->
-    <div class="events-flex-container" >
-        <div class="events-img-section">
-            <img src="images/event.jpeg" alt="" class="events-img">
-        </div>
+          <div class= "events-button-section">
+              <a href="events.html"><button class="events-button">Browse Events</button></a>
+          </div>
+      </div>
+  </div>
+  <!-- end of events section -->
 
-        <div class="events-main-content">
-            <p class="events-section-title">Events</p>
+  <!-- resources section -->
+  <div class="resources-flex-container" >
+      <div class="resources-main-content">
+          <p class="resources-section-title">Resources</p>
 
-            <p class="events-section-description">
-                Interested in learning Python, CSS/HTML/JS, or Swift? Then we are the club for you! We offer workshops for each of these programming languages and more, including Networking and Technical interview prep workshops. Whether you are a complete beginner or an advanced programmer, come join us at any of our events.
-            </p>
+          <p class="resources-section-description">
+              Are you not sure where to start or where to look for resources? We compiled a bunch of resources that we believe are best suited to help you out in this endeavor. These resources include information on Computer Science classes at John Jay, Data Science, Web Development, getting started on a new language, and much more.
+          </p>
 
-            <div class= "events-button-section">
-                <a href="events.html"><button class="events-button">Browse Events</button></a>
-            </div>
-        </div>
-    </div>
-    <!-- end of events section -->
+          <div class= "resources-button-section">
+              <a href="resources.html"><button class="resources-button">More Info</button></a>
+          </div>
+      </div>
 
-    <!-- resources section -->
-    <div class="resources-flex-container" >
-        <div class="resources-main-content">
-            <p class="resources-section-title">Resources</p>
-
-            <p class="resources-section-description">
-                Are you not sure where to start or where to look for resources? We compiled a bunch of resources that we believe are best suited to help you out in this endeavor. These resources include information on Computer Science classes at John Jay, Data Science, Web Development, getting started on a new language, and much more.
-            </p>
-
-            <div class= "resources-button-section">
-                <a href="resources.html"><button class="resources-button">More Info</button></a>
-            </div>
-        </div>
-
-        <div class="resources-img-section">
-            <img src="images/resource.png" alt="" class="resources-img">
-        </div>
-    </div>
-    <!-- end of resources section  -->
+      <div class="resources-img-section">
+          <img src="images/resource.png" alt="" class="resources-img">
+      </div>
+  </div>
+  <!-- end of resources section  -->
 
 
-    <!-- Collaborate Secion -->
-    <div class="collaborate-flex-container" >
-        <div class="collaborate-img-section">
-            <img src="images/collab.png" alt="" class="collaborate-img">
-        </div>
+  <!-- Collaborate Secion -->
+  <div class="collaborate-flex-container" >
+      <div class="collaborate-img-section">
+          <img src="images/collab.png" alt="" class="collaborate-img">
+      </div>
 
-        <div class="collaborate-main-content">
-            <p class="collaborate-section-title">Collaborate</p>
+      <div class="collaborate-main-content">
+          <p class="collaborate-section-title">Collaborate</p>
 
-            <p class="collaborate-section-description">
-                Here at the CSS Club, we want to include as many students as we can. For that reason we’ve decided to open up Assistant Executive positions on our board to get fellow members more engaged with the club and, hopefully one day, into the Executive position. Come and checkout our open positions and apply.
-            </p>
+          <p class="collaborate-section-description">
+              Here at the CSS Club, we want to include as many students as we can. For that reason we’ve decided to open up Assistant Executive positions on our board to get fellow members more engaged with the club and, hopefully one day, into the Executive position. Come and checkout our open positions and apply.
+          </p>
 
-            <div class= "collaborate-button-section">
-                <a href="collaborate.html"><button class="collaborate-button">Learn More</button></a>
-            </div>
-        </div>
-    </div>
-    <!-- end of collaborate section  -->
+          <div class= "collaborate-button-section">
+              <a href="collaborate.html"><button class="collaborate-button">Learn More</button></a>
+          </div>
+      </div>
+  </div>
+  <!-- end of collaborate section  -->
 
-    <!-- remove when done -->
+  <!-- remove when done -->
 <!--     <a href="test.html" style="width: 800px; height: 800px">Go to test.html file</a> -->
-    <!--  -->
+  <!--  -->
 
-    <!-- Footer -->
-    <div class="container">
-        <div class="column-left">
-            <a href="index.html"><img src="images/csslogo.png" alt=""></a>
-        </div>
-        <div class="column-center">
-            <!-- <a href="mailto:computersocjjay@gmail.com"><i class="fas fa-envelope-square fa-lg" style="color: #FBBC05;"></i></a> -->
-            <a href="mailto:bhattsammar04@gmail.com"><i class="iconify" data-icon="logos:google-gmail" data-width="20" data-height="15"></i></a>
+  <!-- Footer -->
+  <div class="container">
+      <div class="column-left">
+          <a href="index.html"><img src="images/csslogo.png" alt=""></a>
+      </div>
+      <div class="column-center">
+          <!-- <a href="mailto:computersocjjay@gmail.com"><i class="fas fa-envelope-square fa-lg" style="color: #FBBC05;"></i></a> -->
+          <a href="mailto:bhattsammar04@gmail.com"><i class="iconify" data-icon="logos:google-gmail" data-width="20" data-height="15"></i></a>
 
-                    |
-			
-            <a href="https://github.com/pradipbhatt" target="_blank" rel="noreferrer noopener"><i class="fab fa-github fa-lg" aria-hidden="true" style="color: white;"></i></a>
-
-                    |
-			
-            <a href="https://www.instagram.com/pradipbhatt3/" target="_blank" rel="noreferrer noopener"><i class="fab fa-instagram fa-lg" style="color: #C13584;"></i></a>
-
-                    |
-			
-            <a href="https://www.instagram.com/pradipbhatt3/" target="_blank" rel="noreferrer noopener"><i class="fab fa-discord fa-lg" style="color: #5865F2;"></i></a>
-            <p id="" class="middleP2" style="text-align: center; color: white;">©2022 Pradip Bhatt School of Engineering Society Club <br>Campus road St, Mahaendranagr, MNR <br> bhattsammar04@gmail.column-left</p>
-        </div>
-        <div class="column-right">
-            <a href="https://www.fwneng.com/" target="_blank" rel="noreferrer noopener"><img src="images/fwuimg.jpeg" alt=""></a>
-        </div>
-     </div>
-     <!-- end of footer -->
+                  |
     
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
-    <!-- end of script -->
+          <a href="https://github.com/pradipbhatt" target="_blank" rel="noreferrer noopener"><i class="fab fa-github fa-lg" aria-hidden="true" style="color: white;"></i></a>
 
-</body>
+                  |
+    
+          <a href="https://www.instagram.com/pradipbhatt3/" target="_blank" rel="noreferrer noopener"><i class="fab fa-instagram fa-lg" style="color: #C13584;"></i></a>
+
+                  |
+    
+          <a href="https://www.instagram.com/pradipbhatt3/" target="_blank" rel="noreferrer noopener"><i class="fab fa-discord fa-lg" style="color: #5865F2;"></i></a>
+          <p id="" class="middleP2" style="text-align: center; color: white;">©2022 Pradip Bhatt School of Engineering Society Club <br>Campus road St, Mahaendranagr, MNR <br> bhattsammar04@gmail.column-left</p>
+      </div>
+      <div class="column-right">
+          <a href="https://www.fwneng.com/" target="_blank" rel="noreferrer noopener"><img src="images/fwuimg.jpeg" alt=""></a>
+      </div>
+   </div>
+   <!-- end of footer -->
+  
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <!-- end of script -->
+
+    <div class="container mt-5">
+      <div class="alert alert-info">
+        <a href="https://github.com/kmlpandey77/bootnavbar#readme">
+          How to use bootNavbar
+        </a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script>
+      new bootnavbar();
+    </script>
+  </body>
 </html>
