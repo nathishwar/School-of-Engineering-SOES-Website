@@ -30,7 +30,7 @@
 }
 
 .social-link:hover{
-    color: #E63946;
+    color: #1b1415;
 }
 
 .tagline{
@@ -45,13 +45,13 @@
 }
 
 #name{
-    border-bottom: 2px #E63946;
+    border-bottom: 2px #1b512f;
 }
 
 hr{
     width: 0px;
     display:block;
-    border-top: 3px solid #E63946;
+    border-top: 3px solid #04df16;
     transition: all 1s ease;
 }
 
