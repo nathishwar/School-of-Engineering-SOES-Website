@@ -15,6 +15,12 @@
 .bar {
     padding-right: 5%;
 }
+ .image{
+  height: 1000;
+  width:500px;
+  align-items: center;
+  align-content: center;
+ }
 
 body {
     margin: 0;
