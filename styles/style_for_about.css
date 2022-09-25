@@ -5,7 +5,7 @@
 }
 body
 {
-	background:rgb(63, 62, 62);
+	background:rgb(58, 95, 99);
 }
  #imgbox img
 {
@@ -61,7 +61,7 @@ section img
 }
 section .heading
 {
-	color:rgb(128, 173, 16);
+	color:rgb(5, 6, 3);
 	font-family: cursive;
 	border-color: black;
 	font-weight: 300;
@@ -77,7 +77,7 @@ section p
 	padding: 20px;
 	margin: 20px;
 	font-size: 2rem;
-	color:rgb(128, 173, 16);
+	color:rgb(0, 0, 0);
 	font-family: cursive;
 	font-weight: 300;
 	border:none;
@@ -91,7 +91,7 @@ section p
 	position: relative;
 	top:15vh;
 	margin: 50px;
-	color: rgb(23, 152, 14);	
+	color: rgb(0, 0, 0);	
 	/*border:2px solid yellow;*/
 }
 #third div h3
@@ -103,7 +103,7 @@ section p
 
 .myimg img
 {
-	height: 30vh;
+	height: 50vh;
 }
 
 
@@ -126,13 +126,13 @@ section p
 #seven img
 {
 	width: 100%;
-	height: 60vh;
+	height: 70vh;
 }
 
-
+/* home contact us ko style ko lagey */
 #etwo a 
 {
-	color: #fff;
+	color: rgb(255, 224, 24);
 }
 
 #ethree
@@ -147,7 +147,7 @@ section p
 	justify-content: center;
 	
 	/*padding: 20px 20px;*/
-	color: #fff;
+	color: rgb(59, 187, 0);
 
 }
 #ethree ul li
@@ -168,7 +168,6 @@ section p
 	width: 100%;
 	height: 90vh;
 	position: absolute;
-	background-image: url(img/b3.jpg);
 	z-index: -1;
 	opacity: .3;
 	/*background-size: 100% 100%;*/
