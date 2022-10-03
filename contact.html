@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHXX8JNY0K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JHXX8JNY0K');
+</script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/globalstyle.css">
@@ -39,9 +48,8 @@
 
 <!-- Body stars from here -->
 <body> 
-<div style="position:fixed; left:0%; top:0%;z-index: 2;">
-  <!-- Navbar starts here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+   <!-- Navbar starts here -->
+   <nav style="font-size: 20px;" class="navbar navbar-expand-lg navbar-light " id="main_navbar">
     <div class="container-fluid">
       <button
         class="navbar-toggler"
@@ -84,9 +92,6 @@
                   <li>
                     <a class="dropdown-item" href="notes/2semister.html">2nd semister</a>
                   </li>
-                  <!-- <li>
-                    <hr class="dropdown-divider" />
-                  </li> -->
                   <li>
                     <a class="dropdown-item" href="notes/3semister.html">3rd semister</a>
                   </li>
@@ -130,7 +135,7 @@
                   </li>
                 </ul>
               </li>
-              <li><a class="dropdown-item" href="poem.html">Poem Section</a></li>
+            
               <!-- BE civil -->
               <li class="nav-item dropdown">
                 <a
@@ -142,30 +147,30 @@
                Civil Engineering
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="notes/1semister.html">1st semister</a></li>
+                  <li><a class="dropdown-item" href="notes/1semisterCIVIL.html">1st semister</a></li>
                   <li>
-                    <a class="dropdown-item" href="notes/2semister.html">2nd semister</a>
+                    <a class="dropdown-item" href="notes/2semisterCIVIL.html">2nd semister</a>
                   </li>
                   <!-- <li>
                     <hr class="dropdown-divider" />
                   </li> -->
                   <li>
-                    <a class="dropdown-item" href="notes/3semister.html">3rd semister</a>
+                    <a class="dropdown-item" href="notes/3semisterCIVIL.html">3rd semister</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="notes/4semister.html">4rd semister</a>
+                    <a class="dropdown-item" href="notes/4semisterCIVIL.html">4rd semister</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="notes/5semister.html">5rd semister</a>
+                    <a class="dropdown-item" href="notes/5semisterCIVIL.html">5rd semister</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="notes/6semister.html">6rd semister</a>
+                    <a class="dropdown-item" href="notes/6semisterCIVIL.html">6rd semister</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="notes/7semister.html">7rd semister</a>
+                    <a class="dropdown-item" href="notes/7semisterCIVIL.html">7rd semister</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="notes/8semister.html">8rd semister</a>
+                    <a class="dropdown-item" href="notes/8semisterCIVIL.html">8rd semister</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -192,13 +197,9 @@
                   </li>
                 </ul>
               </li>
-              <li><a class="dropdown-item" href="Art.html">Art section</a></li>
-                <a class="dropdown-item" href="#">Article section</a>
-              </li>
             </ul>
           </li>
-
-        <!-- Our publication section -->
+         <!-- Our publication section -->
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -269,37 +270,24 @@
               </ul>
             </li>
           <a class="dropdown-item" href="Art.html">Art section</a></li>
-              <a class="dropdown-item" href="#">Article section</a>
+              <a class="dropdown-item" href="constitution.html">Constitution Section</a>
             </li>
           </ul>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/profile.php?id=100083543161885">News/Notices</a>
+          <a class="nav-link" href="entrance.html">Notices</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact-info</a>
         </li>
-
         </ul>
-     
-        <form class="d-flex">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </div>
   </nav>
-  <header style="background-color: rgb(76, 184, 22);">
-    <!-- Navbar starts From here -->
-</div>
 <a href="index.html"><img id="logo" alt="Personal Logo" src="images/logo1.jpeg"></a>
 <div class="welcome"><span id="welcome">Contact Us.</span></div>
 <hr id="underline">
@@ -316,7 +304,6 @@
             Send Us a LinkedIn message
         </a>
     </div>
-
     <!-- Contact iccon for linkedin  -->
     <div class="contact-icon">
         <a class="social-link" href="https://github.com/pradipbhatt">
@@ -374,13 +361,95 @@
            Way to FWU SOES
         </a>
     </div>
-    <h3>Way to Farwestern Universitry</h3>
+    <!-- <h3>Way to Farwestern Universitry</h3> -->
+  </div>
     <div class="contact-info">
-    <iframe style=" align-items: left; align-content: left; height: 800px; width:400;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1745.5557664347136!2d80.17787595872194!3d28.954416200000008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ac04d865ce05%3A0x89f6ca936b28de92!2sFaculty%20Of%20Engineering%20FWU!5e0!3m2!1sen!2snp!4v1661261484825!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe style=" align-items: left; align-content: left; max-height: fit-content; width:100%; " src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1745.5557664347136!2d80.17787595872194!3d28.954416200000008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ac04d865ce05%3A0x89f6ca936b28de92!2sFaculty%20Of%20Engineering%20FWU!5e0!3m2!1sen!2snp!4v1661261484825!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </div>
+
+
+   
+
+
+<!-- Footer starts from here -->
+<footer class="site-footer">
+  <div class="container">
+  <div class="row mb5">
+    <div class="col-md-3 mb-5">
+      <h2>
+        About_Us
+      </h2>
+      <p>
+        We aim to help every individual grow as a person and as as tech professional to feel confident in their tech skills once they graduate. On top of that, we are a community of like-minded individuals who are eager to have creative collaboration and succeed. Come join us at the SOES Society at Far western University.
+        <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis inventore architecto eligendi sunt minus officia cum neque sequi eum, similique optio beatae quas reprehenderit itaque sapiente repellat consectetur ea explicabo? -->
+      </p>
+      <p>
+        <a style="color: rgb(204, 255, 0); font-size: 20px; href="about1.html">Learn More SOES</a>
+      </p>
+    </div>
+    <div class="col-md-3 mb-5">
+      <h2>
+        Contact Adress
+      </h2>
+      <ul class="list-unstyled footer-link ">
+        <li class="d-flex">
+          <span class="me-3">
+            Telephone: <span class="text-white">9745628548</span>
+          </span>
+        </li>
+        <li class="d-flex">
+          <span class="me-3">
+            Email: <span class="text-white">societyofengineeringstudent@gmail.com</span>
+          </span>
+        </li>
+        <li class="d-flex">
+          <span class="me-3">
+            Adress: <span class="text-white">Bhimdatt-Municipality MNR-18</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="col-md-3 mb-5">
+      <h2>Quick Links</h2>
+      <ul 
+       class="list-unstyled ">
+        <li><a style="color: red; font-size: 20px;"  href="about1.html">About us</a></li>
+        <li><a style="color: red; font-size: 20px;"   href="notes/1semister.html">Notes</a></li>
+        <li><a style="color: red; font-size: 20px;"   href="fwneng.com">FWUeng</a></li>
+        <li><a style="color: red; font-size: 20px;"   href="https://www.facebook.com/profile.php?id=100083543161885">FB portal</a></li>
+        <li><a style="color: red; font-size: 20px;"   href="#">INSTA portal</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3">
+      <h2>
+        Our Social Medias
+      </h2>
+      <ul class="list-unstyled footer-link d-flex footer-social">
+        <li><a href="https://www.facebook.com/profile.php?id=100083543161885"> <span class="fa fa-facebook"></span></a></li>
+        <li><a href="#"> <span class="fa fa-instagram"></span></a></li>
+        <li><a href="#"> <span class="fa fa-twitter"></span></a></li>
+        <li><a href="#"> <span class="fa fa-github"></span></a></li>
+      </ul>
+    </div>
+  </div>
+    
+</div> 
+<div >
+<div style="text-align:center ; color: black;">
+  
+      <p>
+        @ copyrights SOES FWU<i class=" fa fa-heart"></i>
+      </p>     
+ </div>
 </div>
-
-
+</div>
+</footer>
+</div>
+<!-- end of footer -->
+ 
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
